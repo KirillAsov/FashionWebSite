@@ -1,0 +1,80 @@
+.discount {
+    
+}
+.discount_inner {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.discount_offer {
+    width: calc(50% - 15px);
+    display: flex;
+    background-image: cover;
+    color: rgb(255, 255, 255);
+}
+.save_up {
+    align-items: center;
+    justify-content: center;
+    background-image: url(/resources/save_up_BG.png);
+}
+.save_up__text {
+    width: 182px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 177%;
+
+}
+.save_up__text>span {
+    font-size: 72px;
+    font-weight: 700;
+    list-style: inherit;
+}
+.sign_up {
+    padding-left: 34px;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/resources/sign_up_BG.png);
+}
+.sign_up__title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 43px;
+}
+.sign_up__text {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.email_input_field {
+    width: 466px;
+    margin-top: 14px;
+    display: flex;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.email_input-wrapper {
+    padding: 15px 19px;
+    width: 100%;
+   
+}
+.email-input {
+    width: 100%;
+    color: rgb(153, 153, 153);
+    border: none;
+}
+.email-input:focus-visible {
+    outline: none;
+}
+.subscribe_button {
+    min-width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+}

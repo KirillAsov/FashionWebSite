@@ -1,0 +1,41 @@
+.promo {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../resources/BG_promo.png) ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: top; 
+	
+}
+.promo-inner {
+    display: flex;
+    width: 970px;
+    /* height: 100px; */
+    padding: 25px 40px 25px 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(51, 51, 51);
+    background: rgb(230, 247, 255);
+}
+.promo-text {
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.promo-code {
+    padding: 15px 30px;
+    color: rgb(2, 48, 71);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px dashed rgb(2, 48, 71);
+}
+.promo-using {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}

@@ -1,0 +1,49 @@
+.offers {
+    background-color: rgb(243, 243, 243);
+}
+.offers_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+.offer_link {
+    display: flex;
+    width: 270px;
+    column-gap: 14px;
+    border: 1px solid rgb(204, 204, 204);
+    text-decoration: none;
+}
+.offer_name {
+ 
+}
+.offer_img-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 8px 11px;
+    width: 45px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgb(229, 229, 229) no-repeat  50% 50%/auto auto;
+}
+.offer_title {
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.offer_text {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.offer_link:hover {
+    border-color: rgb(2, 48, 71);
+}
+.offer_link:hover .offer_img-bg {
+    background-color: rgb(2, 48, 71);
+}
+.offer_link:hover .offer_img {
+    filter:brightness(0) invert(1);
+}

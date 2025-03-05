@@ -1,0 +1,46 @@
+.collections {
+    padding: 100px 0 100px 0;
+}
+.collections_inner {
+    display: flex;
+    column-gap: 30px;
+}
+.collection {
+    position: relative;
+    width: calc(50% - 15px);
+    height: 450px;
+}
+.collection-woman {
+    background-image: url(../resources/woman_collection.png);
+}
+.collection-man {
+    background-image: url(../resources/man_collection.png);
+}
+.collection_info {
+    width: 162px;
+    position: absolute;
+    top:200px;
+    right: 28px;
+}
+.collection_text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    color: rgb(2, 48, 71);
+}
+.collection_name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+}
+.collection_btn {
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 13px 31px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(2, 48, 71);
+}

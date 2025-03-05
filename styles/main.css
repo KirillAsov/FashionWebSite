@@ -1,0 +1,36 @@
+@import "header.css";
+@import "intro.css";
+@import "offers.css";
+@import "collections.css";
+@import "products.css";
+@import "promo.css";
+@import "blog.css";
+@import "feedbacks.css";
+@import "instagram.css";
+@import "discount.css";
+@import "footer.css";
+@import "popup.css";
+
+body {
+    font-family: "Jost", serif;
+    font-weight: 400; 
+    background-color: rgb(229, 229, 229);
+}
+.body_fixed {
+    overflow: hidden;
+}
+.body_inner {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    width: calc(100% - 270px);
+    margin: 0 auto;
+}
+.general-btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
