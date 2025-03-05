@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>ebRaw</title>
+</head>
+<body>
+    <div class="body_inner">
+        <header class="header">
+            <div class="container">
+                <div class="title_block">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="resources/ebRaw-logo.png" alt="ebRaw">
+                        </a>
+                    </div>
+                    <div class="search_field">
+                        <div class="input-wrapper">
+                            <input id="input-product" class="input-product" 
+                                type="text"
+                                placeholder="Search in 20,000 Products...">
+                        </div>
+                        <div id="search_button" class="search_button">
+                            Search
+                        </div>
+                    </div>
+                    <div class="account">
+                        <ul class="account_list">
+                            <li class="account_item">
+                                <a href="">
+                                    <img class="basket" src="resources/basket-final.png" alt="basket">
+                                </a>
+                            </li>
+                            <li class="account_item">
+                                <a href="">
+                                    <img class="favorite" src="resources/Love.png" alt="favorite">
+                                </a>
+                            </li>
+                            <li class="account_item user">
+                                <a href="">
+                                    <img class="basket" src="resources/Profile.png" alt="basket">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav_bar">
+                    <div class="nav_title">
+                        <img class="nav_logo" src="resources/logo_nav.png" alt="">
+                        <p>All Departments</p>
+                    </div>
+                    <nav class="navigation">
+                        <a class="navigation__link" href="#home">Home</a>
+                        <a class="navigation__link" href="#products">Shop</a>
+                        <a class="navigation__link" href="#">Categories</a>
+                        <a class="navigation__link" href="#collection-man">Man</a>
+                        <a class="navigation__link" href="#collection-woman">Woman</a>
+                        <a class="navigation__link" href="#">Accessories</a>
+                        <a class="navigation__link" href="#blog">Blog</a>
+                        <a class="navigation__link" href="#">Page</a>
+                        <a class="navigation__link" href="#elements">Elements</a>
+                        
+                    </nav>
+                    <a class="navigation__link navigation__link-last" href="#">Recent Viewed</a>
+                </div>
+            </div>
+        </header>
+        <section id="home" class="intro">
+            <div class="intro_info">
+                <p class="intro_info__text">New Inspirations</p>
+                <h2 class="intro_info__title">Man<br><span>Collection 2022</span></h2>
+                <p class="intro_info__slogan">Trendy for man and woman collections</p>
+                <button class="general-btn intro_info__btn">Shop Now</button>
+            </div>
+            <div class="intro_img intro_img-active">
+                <img src="resources/man_style.png" alt="">
+            </div>
+            <div class="intro_img ">
+                <img  src="resources/man-style-2v.png" alt="">
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div id="offers_list" class="offers_list">
+                    <a id="offer_link" class="offer_link" href="">
+                        <div class="offer_img-bg">
+                            <img class="offer_img"src="resources/car_icon.png" alt="">
+                        </div>
+                        <div class="offer_name">
+                            <p class="offer_title">Free Shipping</p>
+                            <p class="offer_text">Orders over $200</p>
+                        </div>
+                    </a>
+                    <a id="offer_link" class="offer_link" href="">
+                        <div class="offer_img-bg">
+                            <img class="offer_img" src="resources/card_icon.png" alt="">
+                        </div>
+                        <div class="offer_name">
+                            <p class="offer_title">Secure Payment</p>
+                            <p class="offer_text">100% secure payment</p>
+                        </div>
+                    </a>
+                    <a class="offer_link" href="">
+                        <div class="offer_img-bg">
+                            <img class="offer_img" src="resources/present_icon.png" alt="">
+                        </div>
+                        <div class="offer_name">
+                            <p class="offer_title">Gift Certificae</p>
+                            <p class="offer_text">Buy now $500 to $1000</p>
+                        </div>
+                    </a>
+                    <a class="offer_link" href="">
+                        <div class="offer_img-bg">
+                            <img class="offer_img" src="resources/profile_icon.png" alt="">
+                        </div>
+                        <div class="offer_name">
+                            <p class="offer_title">24/7 Support</p>
+                            <p class="offer_text">Ready support</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="collections">
+            <div class="container">
+                <div class="collections_inner">
+                    <div id="collection-woman" class="collection collection-woman">
+                        <div class="collection_info">
+                            <p class="collection_text">Top Collection</p>
+                            <h2 class="collection_name">SHOP WOMANS</h2>
+                            <button class="general-btn collection_btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div id="collection-man" class="collection collection-man">
+                        <div class="collection_info">
+                            <p class="collection_text">New Collection</p>
+                            <h2 class="collection_name">SUMMER FASHION</h2>
+                            <button class="general-btn collection_btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products" class="products">
+            <div class="container">
+                <div class="products_header">
+                    <h2 class="products_title">Our Featured Products</h2>
+                    <p class="products_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>    
+                <ul class="categories_list">
+                    <li class="category">
+                        <button class="general-btn category-btn">Hoodie</button>
+                    </li>
+                    <li class="category">
+                        <button class="general-btn category-btn">Accessories</button>
+                    <li class="category">
+                        <button class="general-btn category-btn">Mens</button>
+                    </li>
+                    <li class="category">
+                        <button class="general-btn category-btn">Womans</button>
+                    </li>
+                    <li class="category">
+                        <button class="general-btn category-btn">Trendy</button>
+                    </li>
+                    <li class="category">
+                        <button class="general-btn category-btn">T‑Shirt</button>
+                    </li>
+                </ul>
+                <ul class="products_list">
+                    <li class="product-item">
+                        <img class="product_img" src="resources/manSweetHodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Man Sweet Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <img class="product_img" src="resources/Man Summer Sweet Hoodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Man Sweet Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <img class="product_img" src="resources/Man Sweet Hoodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Man Sweet Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <img class="product_img" src="resources/Woman Sweet Hoodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Woman Sweet Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$250.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <img class="product_img" src="resources/Woman Hoodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Woman Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <img class="product_img" src="resources/Man Hoodie.png" alt="">
+                        <div class="product_info">
+                            <div class="product_info-row">
+                                <p class="product_name">Man Hoodie</p>
+                                <p class="raiting">5</p>
+                            </div>
+                            <div class="product_info-row">
+                                <button class="general-btn product-add-btn">Add to cart</button>
+                                <p class="product_price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="product_action-btn">
+                            <button class="action-btn action-btn__favorites">
+                                <img class="action-btn_img" src="resources/action-btn-favorites.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__connect">
+                                <img class="action-btn_img" src="resources/action-btn-connect.png" alt="">
+                            </button>
+                            <button class="action-btn action-btn__scale">
+                                <img class="action-btn_img" src="resources/action-btn-scale.png" alt="">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="view_all-wrapper">
+                    <button class="general-btn view_all-btn">View All</button>
+                </div>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="promo-inner">
+                <p class="promo-text">
+                    Super discount for your first purchase
+                </p>
+                <p class="promo-code">FREE10DELIVERY</p>
+                <p class="promo-using">Use discount code in checkout!</p>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2 class="blog_title">
+                    From the blog
+                </h2>
+                <p class="blog_text">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+                </p>
+                <ul class="posts">
+                    <li class="post">
+                        <div class="post_img">
+                            <img  src="resources/post_image_1(w).png" alt="">
+                        </div>
+                        <p class="post_theme">Fashion</p>
+                        <p class="post_date">DESIGN JULY 11, 2021</p>
+                        <p class="post_text">2021’S Biggest Sneaker Is Getting Us So Pumped For Summer</p>
+                    </li>
+                    <li class="post">
+                        <div class="post_img">
+                            <img  src="resources/post_image_2.png" alt="">
+                        </div>
+                        <p class="post_theme">Style</p>
+                        <p class="post_date">DESIGN JULY 11, 2021</p>
+                        <p class="post_text">2021’S Biggest Sneaker Is Getting Us So Pumped For Summer</p>
+                    </li>
+                    <li class="post">
+                        <div class="post_img">
+                            <img  src="resources/post_image_3(w).png" alt="">
+                        </div>
+                        <p class="post_theme">Fashion</p>
+                        <p class="post_date">DESIGN JULY 11, 2021</p>
+                        <p class="post_text">2021’S Biggest Sneaker Is Getting Us So Pumped For Summer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="feedbacks">
+            <div class="container">
+                <div class="feedbacks_title">
+                    What Say Our Regular Customer
+                </div>
+                
+                <div class="feedbacks_arrows">
+                    <div id="arrows__back" class="arrow arrows__back">
+                        <div class="arrow_inner">
+                            <div class="arrow-top"></div>
+                            <div class="arrow-bottom"></div>
+                        </div>
+                    </div>
+                    <div id="arrows__forward" class="arrow arrows__forward">
+                        <div class="arrow_inner">
+                            <div class="arrow-top"></div>
+                            <div class="arrow-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedbacks_text">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+                </div>
+                <div class="feedbacks_list-wrapper">
+                    <ul class="feedbacks_list">
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 1 These settings don’t provide big changes but only some small css changes in spaces or borders for example.
+                                </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_1.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                                </div>
+                        </li>
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 2 These settings don’t provide big changes but only some small css changes in spaces or borders for example.                        </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_2.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 3 These settings don’t provide big changes but only some small css changes in spaces or borders for example.
+                                </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_3.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 4 These settings don’t provide big changes but only some small css changes in spaces or borders for example.
+                                </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_4.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 5 These settings don’t provide big changes but only some small css changes in spaces or borders for example.
+                                </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_4.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="feedback_wrapper">
+                            <div class="feedback">
+                                <div class="feedback_rate">
+                                    <div class="rating-result">
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                        <span class="active-rate"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback_text">
+                                    № 6 These settings don’t provide big changes but only some small css changes in spaces or borders for example.
+                                </div>
+                                <div class="feedback_autor">
+                                    <img class="feedback_autor__foto" src="resources/autor_foto_4.png" alt="">
+                                    <p class="feedback_autor__name">Wade Warren</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="instagram">
+            <div class="container">
+                <h2 class="instagram_title">Follow us in instagram
+                    <a class="instagram_link" href="">@graphic_raz</a>
+                </h2>
+                <ul class="instagram_gallery">
+                    <li class="instagram_gallery__item">
+                        <img src="resources/insta_foto_1.png" alt="">
+                    </li>
+                    <li class="instagram_gallery__item">
+                        <img src="resources/insta_foto_2.png" alt="">
+                    </li>
+                    <li class="instagram_gallery__item">
+                        <img src="resources/insta_foto_3.png" alt="">
+                    </li>
+                    <li class="instagram_gallery__item">
+                        <img src="resources/insta_foto_4.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="container">
+                <div class="discount_inner">
+                    <div class="discount_offer save_up">
+                        <p class="save_up__text">
+                            SAVE UP <span>50%</span> OFF
+                        </p>
+                    </div>
+                    <div class="discount_offer sign_up">
+                        <p class="sign_up__title">
+                            Sign Up Now & Get 10% Off
+                        </p>
+                        <p class="sign_up__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="email_input_field">
+                            <div class="email_input-wrapper">
+                                <input id="email-input" class="email-input" 
+                                    type="email"
+                                    placeholder="Enter your email address">
+                            </div>
+                            <div id="subscribe_button" class="subscribe_button">
+                                Subscribe Now
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id='popup' class="popup">
+            <div class="popup__content">
+                <p class="popup__text">You have  subscribed successfully<br>Check your email</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div id="elements" class="footer_inner">
+                    <div class="contacts">
+                        <div class="logo footer__logo">
+                            <a href="#">
+                                <img src="resources/ebRaw-logo.png" alt="ebRaw">
+                            </a>
+                        </div>
+                        <p class="footer_title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                        </p>
+                        <ul class="contacts_list">
+                            <li class="contact_icon">
+                                <a href="">
+                                    <img src="resources/facebook_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="contact_icon">
+                                <a href="">
+                                    <img src="resources/twitter_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="contact_icon">
+                                <a href="">
+                                    <img src="resources/insta_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="contact_icon">
+                                <a href="">
+                                    <img src="resources/insta_icon.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="contacts_maps">
+                            <a href="">Check our shop in Google Map</a>
+                        </div>
+                    </div>
+                    <div class="options_wrapper">
+                        <div class="option">
+                            <p class="option_title">Support Links</p>
+                            <ul class="nav_option">
+                                <li class="nav_option__item"><a href="#">Product Guides</a></li>
+                                <li class="nav_option__item"><a href="#">Terms & Conditions</a></li>
+                                <li class="nav_option__item"><a href="#">Delivery Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Privacy Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="option">
+                            <p class="option_title">Quick Links</p>
+                            <ul class="nav_option">
+                                <li class="nav_option__item"><a href="#">Product Guides</a></li>
+                                <li class="nav_option__item"><a href="#">Terms & Conditions</a></li>
+                                <li class="nav_option__item"><a href="#">Delivery Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Privacy Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="option">
+                            <p class="option_title">Company</p>
+                            <ul class="nav_option">
+                                <li class="nav_option__item"><a href="#">Product Guides</a></li>
+                                <li class="nav_option__item"><a href="#">Terms & Conditions</a></li>
+                                <li class="nav_option__item"><a href="#">Delivery Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Privacy Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="option">
+                            <p class="option_title">Help</p>
+                            <ul class="nav_option">
+                                <li class="nav_option__item"><a href="#">Product Guides</a></li>
+                                <li class="nav_option__item"><a href="#">Terms & Conditions</a></li>
+                                <li class="nav_option__item"><a href="#">Delivery Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Privacy Policy</a></li>
+                                <li class="nav_option__item"><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_rights">
+                <div class="container">
+                    <div class="rights_wrapper">
+                        <p class="rights_text">
+                            Copyright @2021 ebRaw. All Rights Reserved By <span>Graphic Raz</span>
+                        </p>
+                        <ul class="payment_list">
+                            <li class="payment">
+                                <img src="resources/payment_Paypal.png" alt="">
+                            </li>
+                            <li class="payment">
+                                <img src="resources/payment_Skrill.png" alt="">
+                            </li>
+                            <li class="payment">
+                                <img src="resources/payment_Visa.png" alt="">
+                            </li>
+                            <li class="payment">
+                                <img src="resources/payment_Master Card.png" alt="">
+                            </li>
+                            <li class="payment">
+                                <img src="resources/payment_American Express.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+   <script src="index.js"></script>
+   <!-- <script src="slider-v2.js"></script> -->
+   <script src="slider-v3.js"></script>
+</body>
+</html>
